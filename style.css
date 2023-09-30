@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.debug {
+    background-color: blueviolet;
+}
+
+.debug header {
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.debug .margin_page_nav{
+    width: 80%;
+}
+.debug nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: cadetblue;
+}
+
+.debug .menu ul{
+    display: inline-flex;
+    list-style: none;
+}
+
+.debug .menu ul li{
+    padding: 1rem;
+}
+
+.debug .bg_color_header{
+    width: 100%;
+    padding: 1rem;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.debug .margin_page{
+    width: 80%;
+    display: flex;
+    justify-content: center; 
+}
+
+.debug .jumbotron {
+    padding: 7rem;
+    width: 60%;
+    background-color: brown;
+    
+}

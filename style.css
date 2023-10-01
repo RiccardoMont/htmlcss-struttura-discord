@@ -91,6 +91,10 @@
     list-style: none;  
 }
 
+.debug .menu ul .log-in{
+    text-align: end;
+}
+
 .debug .bg_color_bot_header{
     padding: 2rem;
     background-color: burlywood;
@@ -109,30 +113,30 @@
 
 
 .debug .bg_color_alfa_main {
-    padding: 2rem;
+    padding: 2rem 0;
     background-color: rgb(249, 242, 233);
 }
 
 .debug .bg_color_beta_main {
-    padding: 2rem;
+    padding: 2rem 0;
     background-color: rgb(195, 195, 192);
 }
 
 .debug .img-section {
     background-color: rgb(88, 241, 74);
-    padding: 12rem;
+    height: 390px;
     border: 3px dashed black;
 }
 
 .debug .text-section {
     background-color: rgb(120, 67, 170);
-    padding: 12rem;
+    height: 390px;
     border: 3px dashed black;
 }
 
 .debug .img-final-section {
     background-color: rgb(153, 107, 9);
-    padding: 25rem;
+    height: 600px;
     border: 3px dashed black;
 }
 
@@ -151,7 +155,7 @@
 }
 
 .debug .site_footer .top-footer ul li{
-    padding: 12rem 0;
+    height: 500px;
 }
 
 .debug .socials {

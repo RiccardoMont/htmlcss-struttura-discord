@@ -118,6 +118,7 @@
 
 /* debug Header e jumbotron*/
 
+
 .debug .bg_color_alfa_main {
     width: 100%;
     padding: 2rem;
@@ -145,5 +146,14 @@
     padding: 15rem;
     border: 3px dashed black;
 }
+
+.debug .img-final-section {
+    background-color: rgb(153, 107, 9);
+    padding: 25rem;
+    border: 3px dashed black;
+}
+
+/*Main*/
+
 
 

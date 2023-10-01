@@ -3,42 +3,100 @@
     margin: 0;
     box-sizing: border-box;
 }
+/*Setting generale*/
 
+.col-1{
+    width: calc(100%/12);
+    border: 1px dashed black;
+}
+.col-2{
+    width: calc((100%/12)*2);
+    border: 1px dashed black;
+}
+.col-3{
+    width: calc((100%/12)*3);
+    border: 1px dashed black;
+}
+.col-4{
+    width: calc((100%/12)*4);
+}
+.col-5{
+    width: calc((100%/12)*5);
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: calc((100%/12)*7);
+}
+.col-8{
+    width: calc((100%/12)*8);
+}
+.col-9{
+    width: calc((100%/12)*9);
+}
+.col-10{
+    width: calc((100%/12)*10);
+}
+.col-11{
+    width: calc((100%/12)*11);
+}
+.col-12{
+    width: 100%;
+}
 .debug {
     background-color: blueviolet;
 }
+/*Colonne in dodicesimi*/
+
+/*body debug*/
 
 .debug header {
     background-color: aqua;
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding-top: 1rem;
 }
-
-
 
 .debug .margin_page_nav{
     width: 80%;
+    margin-bottom: 1rem;
+}
+
+.debug .logo {   
+    padding:1rem;
+    
 }
 .debug nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     background-color: cadetblue;
+    border: 2px dashed black;
 }
 
+.debug .menu {
+    align-self: center;
+    border-left: 3px dashed black;
+    border-right: 3px dashed black;
+}
 .debug .menu ul{
-    display: inline-flex;
-    list-style: none;
+    display: flex;
+    justify-content: center;
+    list-style: none;  
 }
 
 .debug .menu ul li{
     padding: 1rem;
 }
 
-.debug .bg_color_header{
-    width: 100%;
+.debug .log_in {
     padding: 1rem;
+}
+
+.debug .bg_color_bot_header{
+    width: 100%;
+    padding: 2rem;
     background-color: burlywood;
     display: flex;
     justify-content: center;
@@ -52,8 +110,11 @@
 }
 
 .debug .jumbotron {
-    padding: 7rem;
-    width: 60%;
+    padding: 9rem;
+    width: 70%;
     background-color: brown;
-    
+    border: 3px dashed black;
 }
+
+/* debug Header ed elementi interni*/
+

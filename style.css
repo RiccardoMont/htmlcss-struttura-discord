@@ -116,5 +116,34 @@
     border: 3px dashed black;
 }
 
-/* debug Header ed elementi interni*/
+/* debug Header e jumbotron*/
+
+.debug .bg_color_alfa_main {
+    width: 100%;
+    padding: 2rem;
+    background-color: rgb(249, 242, 233);
+    display: flex;
+    justify-content: center;
+}
+
+.debug .bg_color_beta_main {
+    width: 100%;
+    padding: 2rem;
+    background-color: rgb(195, 195, 192);
+    display: flex;
+    justify-content: center;
+}
+
+.debug .img-section {
+    background-color: rgb(88, 241, 74);
+    padding: 15rem;
+    border: 3px dashed black;
+}
+
+.debug .text-section {
+    background-color: rgb(120, 67, 170);
+    padding: 15rem;
+    border: 3px dashed black;
+}
+
 

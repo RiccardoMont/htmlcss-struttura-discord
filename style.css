@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 /*Setting generale*/
 
 .col-1{
@@ -41,28 +42,36 @@
 .col-12{
     width: 100%;
 }
+
+/*Colonne in dodicesimi*/
+
 .debug {
     background-color: blueviolet;
 }
-/*Colonne in dodicesimi*/
 
 /*body debug*/
 
+.debug .container{
+    width: 80%;
+    max-width: 1152px;
+    margin: auto;  
+}
+
+.debug .flex {
+    display: flex;
+    justify-content: center;
+}
+
+.debug .p1-rem {
+    padding: 1rem;
+}
+/*Utility*/
+
 .debug header {
     background-color: aqua;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
     padding-top: 1rem;
 }
-/*
-.debug .margin_page_nav{
-    width: 80%;
-}*/
 
-.debug .logo {   
-    padding:1rem;
-}
 .debug nav {
     display: flex;
     justify-content: space-between;
@@ -82,16 +91,7 @@
     list-style: none;  
 }
 
-.debug .menu ul li{
-    padding: 1rem;
-}
-
-.debug .log_in {
-    padding: 1rem;
-}
-
 .debug .bg_color_bot_header{
-    width: 100%;
     padding: 2rem;
     background-color: burlywood;
     display: flex;
@@ -99,17 +99,8 @@
     
 }
 
-.debug .margin_page{
-    width: 80%;
-    max-width: 1152px;
-    margin: auto;
-    display: flex;
-    justify-content: center; 
-}
-
 .debug .jumbotron {
     padding: 9rem;
-    width: 70%;
     background-color: brown;
     border: 3px dashed black;
 }
@@ -118,33 +109,25 @@
 
 
 .debug .bg_color_alfa_main {
-    width: 100%;
     padding: 2rem;
     background-color: rgb(249, 242, 233);
-    display: flex;
-    justify-content: center;
 }
 
 .debug .bg_color_beta_main {
-    width: 100%;
     padding: 2rem;
     background-color: rgb(195, 195, 192);
-    display: flex;
-    justify-content: center;
 }
 
 .debug .img-section {
     background-color: rgb(88, 241, 74);
-    padding: 15rem;
+    padding: 12rem;
     border: 3px dashed black;
-    width: 768px;
 }
 
 .debug .text-section {
     background-color: rgb(120, 67, 170);
-    padding: 15rem;
+    padding: 12rem;
     border: 3px dashed black;
-    width: 384px;
 }
 
 .debug .img-final-section {
@@ -158,23 +141,17 @@
 .debug .site_footer{
     background-color: goldenrod;
 }
-.debug .top-footer {
-    width: 100%;
-    display: flex;   
-}
 
 .debug .site_footer .top-footer ul{
     display: flex;
     list-style: none;
-    align-items: stretch;
     margin: 0.5em 0;
     width: 1152px;
     border: 3px dashed black;
-    
 }
 
 .debug .site_footer .top-footer ul li{
-    padding: 15rem 0;
+    padding: 12rem 0;
 }
 
 .debug .socials {
@@ -195,16 +172,20 @@
     border: 2px dashed black;
     padding: 1rem 0;
     width: 1152px;
+    margin-top: 1rem;
 }
 
 .debug .logo-end {
-    padding: 0 1rem;
+    padding: 1rem;
     background-color: rgb(117, 57, 33);
     border: 1px dashed black;
 }
 
 .debug .button {
-    padding: 0 1rem;
+    padding: 1rem;
     background-color: rgb(117, 57, 33);
     border: 1px dashed black;
 }
+
+/* Footer */
+
